@@ -9,3 +9,4 @@ def draw(x, y):
     t.setpos(x, y)
     t.pendown()
 
+    t.dot()
