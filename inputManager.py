@@ -12,10 +12,15 @@ def onPress(buttonID, action):
     buttonID = buttonID - 1
     if not buttons[buttonID]:
         buttons[buttonID] = True
-        action()
+    else:
+        return
+    
+    action()
 
 
 def onRelease(buttonID):
     buttonID = buttonID - 1
     if buttons[buttonID]:
         buttons[buttonID] = False
+    else:
+        return

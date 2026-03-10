@@ -2,7 +2,7 @@ import turtle
 import tkinter as tk
 import math
 import random as r
-from constants import *
+from ..constants import *
 from utils import *
 
 def draw_circle(x, y):
